@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7149400419674023071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019723879696685102}
+  - component: {fileID: 5864092040833093069}
+  - component: {fileID: -9040339143478482923}
+  - component: {fileID: -78931199810820271}
+  - component: {fileID: 2632270943868239174}
+  - component: {fileID: -8723415283751433239}
+  - component: {fileID: -8226464490001821043}
+  m_Layer: 0
+  m_Name: LMRItem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5019723879696685102
+Transform:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7149400419674023071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5864092040833093069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7149400419674023071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 783574151, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeID: 31001
+  order: 15
+  displayName: lmr
+  icon: {fileID: 21300000, guid: c3e7e45625710f24e97f15ffdc2fd71e, type: 3}
+  maxStackCount: 1
+  value: 1120
+  quality: 2
+  displayQuality: 0
+  weight: 1
+  tags:
+    list:
+    - {fileID: 11400000, guid: 02947bd4bd8307347ab0e418dbff9bf6, type: 2}
+    - {fileID: 11400000, guid: 4199b9bcd3fa94e468fadf17bb04e9b6, type: 2}
+    - {fileID: 11400000, guid: 4272ae028cd0d3d49b717098d803f56f, type: 2}
+    - {fileID: 11400000, guid: c6ff469bc5c4579488fcb3a761bcb4e3, type: 2}
+  agentUtilities:
+    agents: []
+  itemGraphic: {fileID: 709038302727910731, guid: 6d75e3f2e2a1a4d4c997c85c5891f163,
+    type: 3}
+  useSpriteForPickup: 0
+  stats: {fileID: -9040339143478482923}
+  slots: {fileID: -78931199810820271}
+  modifiers: {fileID: 2632270943868239174}
+  variables:
+    entries:
+    - key: BulletCount
+      dataType: 2
+      data: 
+      display: 1
+    - key: Durability
+      dataType: 1
+      data: 0000dc42
+      display: 0
+  constants:
+    entries:
+    - key: MaxDurability
+      dataType: 1
+      data: 0000dc42
+      display: 0
+    - key: RepairLossRatio
+      dataType: 1
+      data: cdcccc3d
+      display: 0
+    - key: Caliber
+      dataType: 4
+      data: 4152
+      display: 1
+  inventory: {fileID: -8723415283751433239}
+  effects: []
+  usageUtilities: {fileID: 0}
+  soundKey: 
+--- !u!114 &-9040339143478482923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7149400419674023071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1507211381, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  master: {fileID: 5864092040833093069}
+  list:
+  - key: Damage
+    display: 1
+    baseValue: 15
+  - key: ShootSpeed
+    display: 1
+    baseValue: 9
+  - key: Capacity
+    display: 1
+    baseValue: 30
+  - key: ReloadTime
+    display: 1
+    baseValue: 3
+  - key: BurstCount
+    display: 0
+    baseValue: 1
+  - key: BulletSpeed
+    display: 1
+    baseValue: 110
+  - key: BulletDistance
+    display: 1
+    baseValue: 24
+  - key: Penetrate
+    display: 0
+    baseValue: 0
+  - key: CritRate
+    display: 0
+    baseValue: 0.2
+  - key: CritDamageFactor
+    display: 1
+    baseValue: 1.3
+  - key: ArmorPiercing
+    display: 0
+    baseValue: 0.1
+  - key: ArmorBreak
+    display: 0
+    baseValue: 0
+  - key: ShotCount
+    display: 0
+    baseValue: 1
+  - key: ShotAngle
+    display: 0
+    baseValue: 0
+  - key: SoundRange
+    display: 1
+    baseValue: 27
+  - key: ADSAimDistanceFactor
+    display: 0
+    baseValue: 1
+  - key: ADSTime
+    display: 1
+    baseValue: 0.65
+  - key: MoveSpeedMultiplier
+    display: 1
+    baseValue: 0.82
+  - key: AdsWalkSpeedMultiplier
+    display: 1
+    baseValue: 0.45
+  - key: ExplosionDamageMultiplier
+    display: 1
+    baseValue: 1
+  - key: BuffChance
+    display: 0
+    baseValue: 0
+  - key: DefaultScatter
+    display: 0
+    baseValue: 0.31
+  - key: MaxScatter
+    display: 0
+    baseValue: 1
+  - key: ScatterGrow
+    display: 0
+    baseValue: 0.25
+  - key: ScatterRecover
+    display: 0
+    baseValue: 0.3
+  - key: DefaultScatterADS
+    display: 0
+    baseValue: 0.321
+  - key: MaxScatterADS
+    display: 0
+    baseValue: 0.95
+  - key: ScatterGrowADS
+    display: 0
+    baseValue: 0.25
+  - key: ScatterRecoverADS
+    display: 0
+    baseValue: 0.45
+  - key: ScatterFactor
+    display: 1
+    baseValue: 35
+  - key: ScatterFactorADS
+    display: 1
+    baseValue: 9
+  - key: RecoilVMin
+    display: 0
+    baseValue: 0.85
+  - key: RecoilVMax
+    display: 0
+    baseValue: 1.25
+  - key: RecoilHMin
+    display: 0
+    baseValue: -0.6
+  - key: RecoilHMax
+    display: 0
+    baseValue: 0.6
+  - key: RecoilTime
+    display: 0
+    baseValue: 0.1
+  - key: RecoilScaleV
+    display: 1
+    baseValue: 20
+  - key: RecoilScaleH
+    display: 1
+    baseValue: 20
+  - key: RecoilRecoverTime
+    display: 0
+    baseValue: 0.2
+  - key: RecoilRecover
+    display: 0
+    baseValue: 500
+  - key: FlashLight
+    display: 0
+    baseValue: 0
+--- !u!114 &-78931199810820271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7149400419674023071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 936247221, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  master: {fileID: 5864092040833093069}
+  list:
+  - key: Scope
+    slotIcon: {fileID: 0}
+    requireTags:
+    - {fileID: 11400000, guid: 232dedeb8de7bf741b47fe11569261c9, type: 2}
+    excludeTags: []
+    forbidItemsWithSameID: 0
+    overrideDisplayNameKey: 
+  - key: Muzzle
+    slotIcon: {fileID: 0}
+    requireTags:
+    - {fileID: 11400000, guid: 10c581cfb8456be44ad8edfb9d135e75, type: 2}
+    - {fileID: 11400000, guid: 4272ae028cd0d3d49b717098d803f56f, type: 2}
+    excludeTags: []
+    forbidItemsWithSameID: 0
+    overrideDisplayNameKey: 
+  - key: Grip
+    slotIcon: {fileID: 0}
+    requireTags:
+    - {fileID: 11400000, guid: 14abf84d442526d45aeacfe544cfc398, type: 2}
+    excludeTags: []
+    forbidItemsWithSameID: 0
+    overrideDisplayNameKey: 
+  - key: Tec
+    slotIcon: {fileID: 0}
+    requireTags:
+    - {fileID: 11400000, guid: 499aafa14f81eed4cbcdb491d020afb3, type: 2}
+    excludeTags: []
+    forbidItemsWithSameID: 0
+    overrideDisplayNameKey: 
+  - key: Mag
+    slotIcon: {fileID: 0}
+    requireTags:
+    - {fileID: 11400000, guid: 1200eb20203105d498c82684735b90c6, type: 2}
+    - {fileID: 11400000, guid: 4272ae028cd0d3d49b717098d803f56f, type: 2}
+    excludeTags: []
+    forbidItemsWithSameID: 0
+    overrideDisplayNameKey: 
+  - key: Stock
+    slotIcon: {fileID: 0}
+    requireTags:
+    - {fileID: 11400000, guid: c555bb91746a126468c23abd7aaa104c, type: 2}
+    excludeTags: []
+    forbidItemsWithSameID: 0
+    overrideDisplayNameKey: 
+--- !u!114 &2632270943868239174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7149400419674023071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -319703745, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  master: {fileID: 5864092040833093069}
+  list: []
+--- !u!114 &-8723415283751433239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7149400419674023071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 269500879, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayNameKey: 
+  defaultCapacity: 7
+  attachedToItem: {fileID: 5864092040833093069}
+  content: []
+  needInspection: 0
+  acceptSticky: 0
+  hasBeenInspectedInLootBox: 0
+  lockedIndexes: 
+--- !u!114 &-8226464490001821043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7149400419674023071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -326213328, guid: 6a519feec1db63a448637035d8744273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  adsAimMarker: {fileID: 0}
+  muzzleFxPfb: {fileID: 1070958645277725, guid: 12d5ac30df316ad4da11f95d02eeaf10,
+    type: 3}
+  bulletPfb: {fileID: 114742301856429794, guid: 7f56d5ecb38e39f408f7e4268556870d,
+    type: 3}
+  shootKey: rifle_light
+  reloadKey: mag_rifle
+  triggerMode: 0
+  reloadMode: 0
+  autoReload: 0
+  element: 0
+  buff: {fileID: 0}

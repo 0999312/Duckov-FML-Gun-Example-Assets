@@ -1,0 +1,155 @@
+ManifestFileVersion: 0
+CRC: 2179156460
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 045a77d5c0d3cc1be8646a2d6a95e222
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bfebd97edef03f4f3f42bbc2e4517d6d
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 045a77d5c0d3cc1be8646a2d6a95e222
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
+- Class: 114
+  Script: {fileID: 310200394, guid: 6a519feec1db63a448637035d8744273, type: 3}
+- Class: 114
+  Script: {fileID: 1818089037, guid: 6a519feec1db63a448637035d8744273, type: 3}
+- Class: 114
+  Script: {fileID: 1507211381, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+- Class: 114
+  Script: {fileID: 2074923487, guid: 05f78464a6a359d4493cb9c48365010b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 307a736764ebbce44b54d72f8467b6fd, type: 3}
+- Class: 114
+  Script: {fileID: -326213328, guid: 6a519feec1db63a448637035d8744273, type: 3}
+- Class: 114
+  Script: {fileID: 269500879, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+- Class: 114
+  Script: {fileID: 783574151, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+- Class: 114
+  Script: {fileID: -1902725693, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+- Class: 114
+  Script: {fileID: -319703745, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+- Class: 114
+  Script: {fileID: 936247221, guid: ba7fbc498f480f14a92ae3736d840e1e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 572910c10080c0945a0ef731ccedc739, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ItemStatsSystem
+  ClassName: ItemGraphicInfo/ItemGraphicSocket
+- AssemblyName: ItemStatsSystem
+  ClassName: ItemStatsSystem.ItemAgentUtilities
+- AssemblyName: ItemStatsSystem
+  ClassName: ItemStatsSystem.Items.Slot
+- AssemblyName: ItemStatsSystem
+  ClassName: ItemStatsSystem.Stat
+- AssemblyName: TeamSoda.Duckov.Utilities
+  ClassName: Duckov.Utilities.CustomData
+- AssemblyName: TeamSoda.Duckov.Utilities
+  ClassName: Duckov.Utilities.CustomDataCollection
+- AssemblyName: TeamSoda.Duckov.Utilities
+  ClassName: Duckov.Utilities.TagCollection
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.StencilStateData
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset/TextureResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.XRSystemData/ShaderResources
+Assets:
+- Assets/Prefabs/lmr_tactical.fbx
+- Assets/Prefabs/Tags/GunType_AR.asset
+- Assets/Prefabs/Textures/Pfb_Acc_Grip_ALL_REC_3_1.png
+- Assets/Prefabs/Textures/stock_moe_normal.png
+- Assets/Prefabs/muzzle_silencer_phantom_s1_geo - Converted.fbx
+- Assets/Prefabs/IG_Gun_LMR_Tactical.prefab
+- Assets/Prefabs/SodaPointLight.shader
+- Assets/Prefabs/Textures/lmr_tactical_1.png
+- Assets/Prefabs/Textures/grip_rk0_normal.png
+- Assets/Prefabs/stock_moe_geo - Converted.fbx
+- Assets/Prefabs/Textures/lmr_icon.png
+- Assets/Prefabs/Textures/lmr_mer.png
+- Assets/Prefabs/LMR_mesh.fbx
+- Assets/Prefabs/Textures/muzzle_silencer_phantom_s1.png
+- Assets/Prefabs/Textures/grip_rk0.png
+- Assets/Prefabs/Textures/Pfb_Stock_AR_SCA_3_1.png
+- Assets/Prefabs/Tags/Muzzle.asset
+- Assets/Prefabs/grip_rk0 - Converted.fbx
+- Assets/Prefabs/SodaLit.shader
+- Assets/Prefabs/sight_552_geo - Converted.fbx
+- Assets/Prefabs/Tags/Weapon.asset
+- Assets/Prefabs/Tags/Repairable.asset
+- Assets/Prefabs/Tags/Grip.asset
+- Assets/Prefabs/Tags/Gun.asset
+- Assets/Prefabs/Textures/stock_moe.png
+- Assets/Prefabs/Textures/muzzle_silencer_phantom_s1_mer.png
+- Assets/Prefabs/TestURP_Renderer.asset
+- Assets/Prefabs/Textures/lmr_tactical_icon.png
+- Assets/Prefabs/IG_MUZZLE_TEST.prefab
+- Assets/Prefabs/IG_GRIP_TEST.prefab
+- Assets/Prefabs/IG_SIGHT_TEST.prefab
+- Assets/Prefabs/Textures/lmr.png
+- Assets/Prefabs/LMR_Mat.mat
+- Assets/Prefabs/LMRItem.prefab
+- Assets/Prefabs/Tags/Scope.asset
+- Assets/Prefabs/SIGHT_Mat.mat
+- Assets/Prefabs/Shell.mat
+- Assets/Prefabs/Textures/lmr_normal.png
+- Assets/Prefabs/TestURP.asset
+- Assets/Prefabs/Tags/Stock.asset
+- Assets/Prefabs/LMR_Mat 1.mat
+- Assets/Prefabs/Textures/sight_552-1_normal.png
+- Assets/Prefabs/Tags/TecEquip.asset
+- Assets/Prefabs/Textures/lmr_tactical_1_normal.png
+- Assets/Prefabs/Textures/Pfb_Muzzle_AR_SIL_1_1.png
+- Assets/Prefabs/IG_STOCK_TEST.prefab
+- Assets/Prefabs/Textures/sight_552-1.png
+- Assets/Prefabs/STOCK_MAT.mat
+- Assets/Prefabs/Tags/Magazine.asset
+- Assets/Prefabs/MUZZLE_MAT.mat
+- Assets/Prefabs/IG_Gun_LMR.prefab
+- Assets/Prefabs/Textures/lmr_tactical_1_mer.png
+- Assets/Prefabs/Textures/grip_rk0_mer.png
+- Assets/Prefabs/Textures/stock_moe_mer.png
+- Assets/Prefabs/Textures/Pfb_Scope_All_Holo_1_1.png
+- Assets/Prefabs/Textures/muzzle_silencer_phantom_s1_normal.png
+- Assets/Prefabs/ShotgunShell.asset
+- Assets/Prefabs/GRIP_MAT.mat
+Dependencies: []
